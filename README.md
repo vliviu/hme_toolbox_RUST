@@ -1,5 +1,7 @@
 ## 1. INTRO: Hierarchical Mixture of Experts (HME)
 This toolbox provides hierarchical clustering using the Mixture of Experts model.  
+see also https://github.com/vliviu/HME-Toolbox  for references (in docs/) where the articles inspiring this work were published.
+
 ## 2. Description
 
 The HME Toolbox implements the Hierarchical Mixture of Experts (HME) algorithm, designed to handle clustering of biological entities 
