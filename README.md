@@ -164,3 +164,11 @@ src/
 │   └── mod.rs
 │
 └── main.rs              # Entry point for the application
+```
+
+### 9. Acknowledgments
+
+## Acknowledgments
+
+- Special thanks to the Rust community for creating such an efficient language.
+- Thanks to the [bio-rust](https://github.com/rust-bio) project for biological sequence handling utilities.
