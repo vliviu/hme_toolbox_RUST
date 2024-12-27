@@ -31,6 +31,8 @@ Make sure you have Rust installed on your system (visit rust-lang.org for instru
 Then, build and run the project:
 
 cargo build
+
+
 cargo run
 
 ### 5. **Usage**
