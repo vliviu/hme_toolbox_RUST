@@ -1,4 +1,4 @@
-## Hierarchical Mixture of Experts (HME)
+## 1. INTRO: Hierarchical Mixture of Experts (HME)
 This toolbox provides hierarchical clustering using the Mixture of Experts model.  
 ## 2. Description
 
