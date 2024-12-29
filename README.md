@@ -173,4 +173,5 @@ src/
 ## Acknowledgments
 
 - Special thanks to the Rust community for creating such an efficient language.
+- Important site showing the path to Learning Rust:  https://github.com/ImplFerris/LearnRust
 - Thanks to the [bio-rust](https://github.com/rust-bio) project for biological sequence handling utilities.
