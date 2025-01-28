@@ -1,6 +1,8 @@
 ## 1. INTRO: Hierarchical Mixture of Experts (HME)
 This toolbox provides hierarchical clustering using the Mixture of Experts model.  
-see also https://github.com/vliviu/HME-Toolbox  for references the articles inspiring this work were published are:
+see also https://github.com/vliviu/HME-Toolbox  for references. 
+
+The articles inspiring this work were published are:
 "Ischemia Detection with a Self-Organizing Map Supplemented by Supervised Learning" by L. Vladutu et. al in IEEE Trans. on Neural Networks 
 No. S, VOL. 12, NO. 3, MAY 2001, pp 603-611
 
