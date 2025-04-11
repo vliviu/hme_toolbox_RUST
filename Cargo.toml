@@ -2,6 +2,11 @@
 name = "hme_toolbox"
 version = "0.1.0"
 edition = "2021"
+authors = ["Liviu Vladutu <Liviu.Vladutu@email.com>"]
+license = "Apache-2.0"
+description = "A nice toolbox for AI- using Hierarchical-Mixture of Experts"
+repository = "https://github.com/vliviu/hme_toolbox_RUST"
+readme = "README.md"
 
 [dependencies]
 bio = "0.38.0"  # Bioinformatics library for parsing FASTA and working with sequences

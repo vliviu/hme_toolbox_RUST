@@ -1,14 +1,13 @@
+use plotters::prelude::*;
 use std::fs::File;
-use std::io::{self, BufReader};
-use plotters::prelude::*; // Ensure you have plotters dependency
+use std::io::{self, BufReader}; // Ensure you have plotters dependency
 
+use hme_toolbox::clustering::cluster_sequences;
 use hme_toolbox::clustering::hme::HMECluster;
 use hme_toolbox::parser::parse_fasta;
-use hme_toolbox::clustering::cluster_sequences;
 //use hme_toolbox::plotter::plot_clusters;
 
 use hme_toolbox::plotter::plot_clusters as imported_plot_clusters;
-
 
 #[test]
 fn test_with_large_fasta() {
@@ -18,7 +17,10 @@ fn test_with_large_fasta() {
     let clusters = cluster_sequences(&sequences);
     plot_clusters(clusters);
 
-    assert!(std::path::Path::new("clusters.png").exists(), "Plot file was not generated.");
+    assert!(
+        std::path::Path::new("clusters.png").exists(),
+        "Plot file was not generated."
+    );
 }
 
 // This is now a regular utility function, not a test function.

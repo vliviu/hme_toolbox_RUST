@@ -1,6 +1,6 @@
 //use std::fs::File;
-use std::error::Error;
 use csv::ReaderBuilder;
+use std::error::Error;
 
 pub fn read_csv(file_path: &str) -> Result<Vec<Vec<String>>, Box<dyn Error>> {
     let mut rdr = ReaderBuilder::new().from_path(file_path)?;

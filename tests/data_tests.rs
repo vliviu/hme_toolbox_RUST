@@ -8,5 +8,3 @@ fn test_read_fasta() {
     assert!(sequences.len() > 0);
     assert_eq!(sequences[0].0, "sequence1");
 }
-
-
